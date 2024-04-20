@@ -1,0 +1,48 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registro</title>
+    <link rel="stylesheet" href="registros.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.0/css/all.min.css">
+</head>
+<body>
+    <div class="registro">
+        <form action="Registro.php" method="post">
+            <h1>Registro</h1>
+            <div class="cuerpo">
+
+                <div class="icono">
+                    <i class="fa-solid fa-user"></i>
+                    <input type="text" required name="nombre" placeholder="Nombre">
+                </div><br>
+
+                <div class="icono">
+                    <i class="fa-solid fa-user"></i>
+                    <input type="text" required name="apellidos" placeholder="Apellidos">
+                </div><br>
+
+                <div class="icono">
+                    <i class="fa-solid fa-envelope"></i>
+                    <input type="email" required name="correo" placeholder="Correo electronico">
+                </div><br>
+
+                <div class="icono">
+                    <i class="fa-solid fa-lock"></i>
+                    <input type="password" required name="contraseña" placeholder="Contraseña">
+                </div><br>
+
+            <select name="preferencia" required><br>
+                <option value="" disabled>Preferencia turistica</option>
+                <option value="1">1- Playa</option>
+                <option value="2">2- Montaña</option>
+                <option value="3">3- Ciudad</option>
+              </select> <br><br><br>
+            <button type="submit" name="enviar">Registrarse</button><br><hr>
+            <a href="Login.html">Ingresar</a>
+        </div>
+    </form>
+    </div>
+</body>
+</html>

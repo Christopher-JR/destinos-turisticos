@@ -1,0 +1,84 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+    background: linear-gradient(180deg, rgb(132, 197, 165),rgb(22, 139, 218));
+    height: 100vh;
+}   
+
+.registro {
+    position: absolute;
+    top: 45%;
+    left: 50%;
+    width: 480px;
+    height: 490px;
+    transform: translate(-50%, -50%);
+    background: white;
+    border-radius: 30px;
+}
+
+h1 {
+    text-align: center;
+    padding-top: 10px;
+    color: rgb(18, 122, 122);
+}
+
+a {
+    font-size: 20px;
+    text-decoration: none;
+    color: rgb(18, 122, 122);
+}
+
+input {
+    text-align: left;
+    background-color: rgb(251, 251, 251);
+    font-size: 20px;
+    width: 380px;
+    height: 35px;
+    border: 1px solid black;
+    border-radius: 7px;
+    padding: 0px 0px 0px 42px;
+    outline: none;
+}
+
+select {
+    text-align: left;
+    font-size: 20px;
+    width: 390px;
+    height: 35px;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+
+.icono i{
+    position: absolute;
+    margin-left: 10px;
+    margin-top: 8px;
+    font-size: 20px;
+}
+
+.cuerpo {
+    text-align: center;
+}
+
+button{
+    background-color: rgb(18, 122, 122);
+    color: rgb(236, 234, 234);
+    width: 200px;
+    height: 45px;
+    font-size: 25px;
+    border-radius: 5px;
+}
+
+button:hover{
+    background-color: rgb(26, 172, 172);
+}
+
+h3 {
+    color: #ff0000;
+    font-size: 20px;
+    font-weight: bold;
+    position: absolute;
+    top: 61%;
+    right: 36%;
+}
